@@ -1,2 +1,7 @@
 11/11/2024
 Init search project
+
+26/11/2024
+few, come back huh. :).
+
+make the search bar center and rounded corner
