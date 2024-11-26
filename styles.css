@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: wheat;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -5,14 +13,17 @@ form {
 }
 
 #search-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
     width: 700px;
     height: 30px;
     font-size: 20px;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 30px;    /* make the search bar rounded corner*/
+}
+
+#search-button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;    /* make the search button rounded corner*/
 }
