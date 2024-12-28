@@ -8,3 +8,7 @@ make the search bar center and rounded corner
 
 23/12/2024
 Life man!!! Now I'm back once again!
+
+28/12/2024
+created advanced search and image search
+bug at identify the parameter to go to image search

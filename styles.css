@@ -1,5 +1,7 @@
 body {
-    background-color: wheat;
+    /* margin: 0; */
+    /* height: 100vh; */
+    background-color: white;
 } 
 
 form {
@@ -10,9 +12,11 @@ form {
 
 .search {
     display: flex;
-    justify-content: center;
+    /* flex: 1; */
+    /* flex-direction: column; */
     align-items: center;
-    height: 90vh;   /* 70% of the viewport height */
+    justify-content: center;
+    height: 70vh;
 }
 
 #search-bar {
@@ -29,4 +33,18 @@ form {
     height: 40px;
     font-size: 20px;
     border-radius: 30px;    /* make the search button rounded corner*/
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#go-back-search {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 20px;
 }
