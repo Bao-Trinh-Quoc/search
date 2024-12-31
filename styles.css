@@ -1,7 +1,7 @@
 body {
     /* margin: 0; */
     /* height: 100vh; */
-    background-color: white;
+    background-color: black;
 } 
 
 form {
@@ -13,10 +13,10 @@ form {
 .search {
     display: flex;
     /* flex: 1; */
-    /* flex-direction: column; */
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
     justify-content: center;
-    height: 70vh;
+    height: 50vh;
 }
 
 #search-bar {
@@ -40,6 +40,7 @@ form {
     justify-content: flex-end;
     gap: 10px;
     font-size: 20px;
+    color: white;
 }
 
 #go-back-search {
@@ -47,4 +48,12 @@ form {
     justify-content: flex-end;
     gap: 10px;
     font-size: 20px;
+}
+
+.google-logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 96px;
+    color: white; /* Google blue */
+    text-align: center;
+    margin-bottom: 20px;
 }

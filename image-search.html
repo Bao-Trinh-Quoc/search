@@ -10,11 +10,12 @@
 
     <body>
         <a href="index.html" id="go-back-search">Google Search</a>
-    
-        <div class="image-search">
-            <form action="https://www.google.com/search?tbm=isch">
-                <input type="text" name="q" placeholder="Search Google or type a URL" id="search-bar">
-                <input type="submit" value="Google Search" id="search-button">
+
+        <div class="search">
+            <form action="https://www.google.com/search">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" name="q" placeholder="Search for images..."  id="search-bar">
+                <input type="submit" value="Search Image" id="search-button">
             </form>
         </div>
     </body>
