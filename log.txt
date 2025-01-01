@@ -16,3 +16,5 @@ bug at identify the parameter to go to image search
 30/12/2024
 Identified the param for image search
 Added google logo
+
+31/12/2024

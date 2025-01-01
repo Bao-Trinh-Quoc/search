@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Advanced Search</title>
-</head>
-<body>
-    <a href="index.html" id="go-back-search">Google Search</a>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+
+        <a href="index.html" id="go-back-search">Google Search</a>
+
+        <h1 style="color: #f28b82;">Advanced Search</h1>
+        <h2 style="color: aliceblue;">Find pages with...</h2>
+        
+        <form action="/search" id="s1zaZb" method="GET" name="f">
+
+            <label for="all">all these words</label>
+            <input class="jfk-textinput" value="" autofocus="autofocus" id="all" name="as_q" type="text">
+
+            <label for="exact">this exact word or phrase</label>
+            <input class="jfk-textinput" value="" id="exact" name="as_epq" type="text">
+
+            <label for="any">any of these words</label>
+            <input class="jfk-textinput" value="" id="any" name="as_oq" type="text">
+
+            <label for="none">none of these words</label>
+            <input class="jfk-textinput" value="" id="none" name="as_eq" type="text">
+
+        </form>
+
+    </body>
 </html>

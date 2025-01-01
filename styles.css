@@ -39,21 +39,29 @@ form {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    font-size: 20px;
-    color: white;
+    font-size: 22px;
 }
 
 #go-back-search {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .google-logo {
     font-family: 'Arial', sans-serif;
     font-size: 96px;
-    color: white; /* Google blue */
+    color: white; 
     text-align: center;
     margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+
+label {
+    color: white;
 }
