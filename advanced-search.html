@@ -10,23 +10,34 @@
 
         <a href="index.html" id="go-back-search">Google Search</a>
 
-        <h1 style="color: #f28b82;">Advanced Search</h1>
+        <h1 style="color: #f28b82; margin-bottom: 100px;">Advanced Search</h1>
         <h2 style="color: aliceblue;">Find pages with...</h2>
         
-        <form action="/search" id="s1zaZb" method="GET" name="f">
+        <form action="https://www.google.com/search">
+            <div class="advanced-search">
+                <div class="as-1">
+                    <label for="all">all these words</label>
+                    <input class="jfk-textinput" value="" autofocus="autofocus" id="all" name="as_q" type="text">
+                </div>
 
-            <label for="all">all these words</label>
-            <input class="jfk-textinput" value="" autofocus="autofocus" id="all" name="as_q" type="text">
+                <div class="as-2">
+                    <label for="exact">this exact word or phrase</label>
+                    <input class="jfk-textinput" value="" id="exact" name="as_epq" type="text">
+                </div>
+                
+                <div class="as-3">
+                    <label for="any">any of these words</label>
+                    <input class="jfk-textinput" value="" id="any" name="as_oq" type="text">
+                </div>
+                
+                <div class="as-4">
+                    <label for="none">none of these words</label>
+                    <input class="jfk-textinput" value="" id="none" name="as_eq" type="text">
+                </div>
 
-            <label for="exact">this exact word or phrase</label>
-            <input class="jfk-textinput" value="" id="exact" name="as_epq" type="text">
-
-            <label for="any">any of these words</label>
-            <input class="jfk-textinput" value="" id="any" name="as_oq" type="text">
-
-            <label for="none">none of these words</label>
-            <input class="jfk-textinput" value="" id="none" name="as_eq" type="text">
-
+                <input type="submit" value="Google Search" id="search-button">
+            
+            </div>
         </form>
 
     </body>

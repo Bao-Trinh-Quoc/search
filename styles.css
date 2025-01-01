@@ -4,7 +4,7 @@ body {
     background-color: black;
 } 
 
-form {
+.search-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,4 +64,23 @@ a {
 
 label {
     color: white;
+}
+
+.advanced-search {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}  
+
+.advanced-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.as-1, .as-2, .as-3, .as-4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 150px;
 }
